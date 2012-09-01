@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 gem 'rails', '3.2.8'
-gem 'sqlite3'
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
@@ -22,3 +21,7 @@ gem "rolify", ">= 3.2.0"
 gem "simple_form", ">= 2.0.2"
 gem "google_visualr", ">= 2.1.2"
 gem "jquery-datatables-rails", ">= 1.10.0"
+
+group :development, :test do
+  gem 'sqlite3'
+end
