@@ -75,8 +75,8 @@ RailsPrelaunchSignup::Application.configure do
     domain: "http://enigmatic-badlands-8028.herokuapp.com",
     authentication: "plain",
     enable_starttls_auto: true,
-    user_name: ENV["searlecon@gmail.com"],
-    password: ENV["argitdyzrctfidai"]
+    user_name: "searlecon@gmail.com",
+    password: "argitdyzrctfidai"
   }
 
 
